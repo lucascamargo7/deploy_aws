@@ -1,7 +1,6 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index  .js",
   "scripts": {
     "start": "node api"
@@ -14,5 +13,16 @@
     "express": "^4.17.1",
     "multer": "^1.4.2",
     "nodemailer": "^6.4.11"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucascamargo7/deploy_aws.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/lucascamargo7/deploy_aws/issues"
+  },
+  "homepage": "https://github.com/lucascamargo7/deploy_aws#readme",
+  "description": ""
 }
