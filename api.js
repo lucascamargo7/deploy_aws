@@ -27,6 +27,6 @@ const server = http.createServer(app);
 //console.log("Servidor escutando na porta 3030...")
 
 const PORT = process.env.PORT || 3030;
-app.listen(PORT, () => {
+server.listen(PORT, () => {
     console.log(`App TA ROLANDO on port ${ PORT }`);
 });
