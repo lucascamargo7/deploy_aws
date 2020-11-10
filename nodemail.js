@@ -16,7 +16,7 @@ module.exports = (email, nome, assunto, mensagem, anexo) => {
     const smtpTransport = mailer.createTransport({
         host: 'smtp.vistalegre.ind.br',
         port: '587',
-        secure: false, //SSL/TLS
+        //secure: false, //SSL/TLS
         auth: {
             user: 'lucas.pereira@vistalegre.ind.br',
             pass: 'Ln324915'
