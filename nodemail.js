@@ -3,13 +3,23 @@ const mailer = require("nodemailer");
 module.exports = (email, nome, assunto, mensagem, anexo) => {
     
 
-    const smtpTransport = mailer.createTransport({
-        host: 'smtp.gmail.com',
-        port: '587',
+    //const smtpTransport = mailer.createTransport({
+     //   host: 'smtp.gmail.com',
+     //   port: '587',
        // secure: false, //SSL/TLS
+     //   auth: {
+     //       user: 'ti.vistalegre@gmail.com',
+    //        pass: 'vista.2016'
+    //    }
+    //})
+
+    const smtpTransport = mailer.createTransport({
+        host: 'smtp.vistalegre.ind.br',
+        port: '587',
+        secure: false, //SSL/TLS
         auth: {
-            user: 'ti.vistalegre@gmail.com',
-            pass: 'vista.2016'
+            user: 'lucas.pereira@vistalegre.ind.br',
+            pass: 'Ln324915'
         }
     })
     
