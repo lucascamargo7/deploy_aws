@@ -4,11 +4,11 @@ module.exports = (email, nome, assunto, mensagem, anexo) => {
     
 
     //const smtpTransport = mailer.createTransport({
-     //   host: 'smtp.gmail.com',
-     //   port: '587',
-       // secure: false, //SSL/TLS
-     //   auth: {
-     //       user: 'ti.vistalegre@gmail.com',
+    //   host: 'smtp.gmail.com',
+    //   port: '587',
+    // secure: false, //SSL/TLS
+    //   auth: {
+    //       user: 'ti.vistalegre@gmail.com',
     //        pass: 'vista.2016'
     //    }
     //})
@@ -31,7 +31,7 @@ module.exports = (email, nome, assunto, mensagem, anexo) => {
         //secure: false, //use SSL
         auth: {
             user: 'comunicacaosite@vistalegre.ind.br',
-            pass: 'Ln324915'
+            pass: 'vista.2019**'
         },
 
         tls: { rejectUnauthorized: false }
@@ -43,8 +43,6 @@ module.exports = (email, nome, assunto, mensagem, anexo) => {
         subject: `${assunto}`,
         text: `Email de contato ${email} - ${mensagem}`
         //html: "<b>Opcionalmente, pode enviar como HTML</b>"
-
-    
     }
 
     //const mail = {
@@ -52,7 +50,7 @@ module.exports = (email, nome, assunto, mensagem, anexo) => {
     //    to: 'comunicacaosite@vistalegre.ind.br',//'@vistalegre.ind.br', //'lucas.pereira@vistalegre.ind.br',//'ti.vistalegre@gmail.com',
     //    subject: `${assunto}`,
     //    text: `Email de contato ${email} - ${mensagem}`
-        //html: "<b>Opcionalmente, pode enviar como HTML</b>"
+    //html: "<b>Opcionalmente, pode enviar como HTML</b>"
     //}
     
     if(anexo){
