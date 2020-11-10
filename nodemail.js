@@ -9,7 +9,7 @@ module.exports = (email, nome, assunto, mensagem, anexo) => {
     // secure: false, //SSL/TLS
     //   auth: {
     //       user: 'ti.vistalegre@gmail.com',
-    //        pass: 'vista.2016'
+    //        pass: '******'
     //    }
     //})
 
@@ -20,7 +20,7 @@ module.exports = (email, nome, assunto, mensagem, anexo) => {
     //    secure: false, //use SSL
     //    auth: {
     //        user: 'comunicacaouva@hotmail.com',
-    //        pass: 'vista.2019**'
+    //        pass: ******'
     //    }
     //})
 
