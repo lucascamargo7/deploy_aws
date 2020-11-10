@@ -14,9 +14,9 @@ module.exports = (email, nome, assunto, mensagem, anexo) => {
     //})
 
     const smtpTransport = mailer.createTransport({
-        //service: 'Hotmail',
-        host: 'smtp.live.com',
-        port: '465',
+        service: 'Hotmail',
+        //host: 'smtp.live.com',
+        //port: '465',
         //secure: false, //SSL/TLS
         auth: {
             user: 'lukas.camargo@hotmail.com',
