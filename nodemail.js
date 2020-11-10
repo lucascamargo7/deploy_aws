@@ -39,7 +39,7 @@ module.exports = (email, nome, assunto, mensagem, anexo) => {
     
     const mail = {
         from: 'comunicacaosite@vistalegre.ind.br',
-        to: 'comunicacaosite@vistalegre.ind.br',//'@vistalegre.ind.br', //'lucas.pereira@vistalegre.ind.br',//'ti.vistalegre@gmail.com',
+        to: 'giovani.diniz@vistalegre.ind.br',//'@vistalegre.ind.br', //'lucas.pereira@vistalegre.ind.br',//'ti.vistalegre@gmail.com',
         subject: `${assunto}`,
         text: `Email de contato ${email} - ${mensagem}`
         //html: "<b>Opcionalmente, pode enviar como HTML</b>"
