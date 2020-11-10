@@ -14,18 +14,18 @@ module.exports = (email, nome, assunto, mensagem, anexo) => {
     //})
 
     const smtpTransport = mailer.createTransport({
-        service: 'Hotmail',
-        //host: 'smtp.live.com',
-        //port: '465',
-        //secure: false, //SSL/TLS
+        //service: 'Hotmail',
+        host: 'smtp.live.com',
+        port: '587',
+        secure: false, //use SSL
         auth: {
-            user: 'lukas.camargo@hotmail.com',
-            pass: 'ln324915'
+            user: 'comunicacaouva@hotmail.com',
+            pass: 'vista.2019**'
         }
     })
     
     const mail = {
-        from: `${nome} <lukas.camargo@hotmail.com'>`,
+        from: 'comunicacaouva@hotmail.com',
         to: 'comunicacaosite@vistalegre.ind.br',//'@vistalegre.ind.br', //'lucas.pereira@vistalegre.ind.br',//'ti.vistalegre@gmail.com',
         subject: `${assunto}`,
         text: `Email de contato ${email} - ${mensagem}`
